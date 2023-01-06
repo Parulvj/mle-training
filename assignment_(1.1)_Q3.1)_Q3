@@ -1,0 +1,902 @@
+Script started on 2023-01-06 12:11:30+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="168" LINES="44"]
+]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ $ sudo wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh[1P[1P
+[sudo] password for vparul: 
+--2022-05-13 12:14:14--  https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+Resolving repo.anaconda.com (repo.anaconda.com)... 104.16.131.3, 104.16.130.3, 2606:4700::6810:8303, ...
+Connecting to repo.anaconda.com (repo.anaconda.com)|104.16.131.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 75660608 (72M) [application/x-sh]
+Saving to: ‘Miniconda3-latest-Linux-x86_64.sh’
+
+
+Miniconda3-latest-Linux-x86_64.sh           0%[                                                                                      ]       0  --.-KB/s               
+Miniconda3-latest-Linux-x86_64.sh           0%[                                                                                      ] 342.98K  1.12MB/s               
+Miniconda3-latest-Linux-x86_64.sh           0%[                                                                                      ] 726.98K  1.34MB/s               
+Miniconda3-latest-Linux-x86_64.sh           1%[>                                                                                     ] 966.38K  1.21MB/s               
+Miniconda3-latest-Linux-x86_64.sh           1%[>                                                                                     ]   1.26M  1.27MB/s               
+Miniconda3-latest-Linux-x86_64.sh           1%[>                                                                                     ]   1.27M   853KB/s               
+Miniconda3-latest-Linux-x86_64.sh           1%[>                                                                                     ]   1.41M   674KB/s               
+Miniconda3-latest-Linux-x86_64.sh           2%[>                                                                                     ]   1.47M   583KB/s               
+Miniconda3-latest-Linux-x86_64.sh           2%[>                                                                                     ]   1.54M   539KB/s               
+Miniconda3-latest-Linux-x86_64.sh           2%[>                                                                                     ]   1.55M   492KB/s    eta 2m 27s 
+Miniconda3-latest-Linux-x86_64.sh           2%[>                                                                                     ]   1.58M   437KB/s    eta 2m 27s 
+Miniconda3-latest-Linux-x86_64.sh           2%[=>                                                                                    ]   1.69M   419KB/s    eta 2m 27s 
+Miniconda3-latest-Linux-x86_64.sh           2%[=>                                                                                    ]   1.77M   395KB/s    eta 3m 3s  
+Miniconda3-latest-Linux-x86_64.sh           2%[=>                                                                                    ]   1.85M   387KB/s    eta 3m 3s  
+Miniconda3-latest-Linux-x86_64.sh           2%[=>                                                                                    ]   1.91M   365KB/s    eta 3m 3s  
+Miniconda3-latest-Linux-x86_64.sh           2%[=>                                                                                    ]   2.02M   324KB/s    eta 3m 42s 
+Miniconda3-latest-Linux-x86_64.sh           2%[=>                                                                                    ]   2.05M   296KB/s    eta 3m 42s 
+Miniconda3-latest-Linux-x86_64.sh           2%[=>                                                                                    ]   2.10M   284KB/s    eta 4m 13s 
+Miniconda3-latest-Linux-x86_64.sh           2%[=>                                                                                    ]   2.16M   283KB/s    eta 4m 13s 
+Miniconda3-latest-Linux-x86_64.sh           3%[=>                                                                                    ]   2.32M   295KB/s    eta 4m 13s 
+Miniconda3-latest-Linux-x86_64.sh           3%[=>                                                                                    ]   2.35M   233KB/s    eta 4m 13s 
+Miniconda3-latest-Linux-x86_64.sh           3%[=>                                                                                    ]   2.41M   212KB/s    eta 4m 13s 
+Miniconda3-latest-Linux-x86_64.sh           3%[=>                                                                                    ]   2.43M   196KB/s    eta 4m 13s 
+Miniconda3-latest-Linux-x86_64.sh           3%[=>                                                                                    ]   2.47M   155KB/s    eta 4m 13s 
+Miniconda3-latest-Linux-x86_64.sh           3%[==>                                                                                   ]   2.57M   168KB/s    eta 4m 13s 
+Miniconda3-latest-Linux-x86_64.sh           3%[==>                                                                                   ]   2.63M   167KB/s    eta 4m 13s 
+Miniconda3-latest-Linux-x86_64.sh           3%[==>                                                                                   ]   2.72M   174KB/s    eta 4m 13s 
+Miniconda3-latest-Linux-x86_64.sh           3%[==>                                                                                   ]   2.80M   190KB/s    eta 4m 13s 
+Miniconda3-latest-Linux-x86_64.sh           3%[==>                                                                                   ]   2.83M   184KB/s    eta 4m 13s 
+Miniconda3-latest-Linux-x86_64.sh           3%[==>                                                                                   ]   2.87M   179KB/s    eta 4m 13s 
+Miniconda3-latest-Linux-x86_64.sh           3%[==>                                                                                   ]   2.88M   161KB/s    eta 4m 36s 
+Miniconda3-latest-Linux-x86_64.sh           4%[==>                                                                                   ]   2.93M   158KB/s    eta 4m 36s 
+Miniconda3-latest-Linux-x86_64.sh           4%[==>                                                                                   ]   2.99M   147KB/s    eta 5m 4s  
+Miniconda3-latest-Linux-x86_64.sh           4%[==>                                                                                   ]   3.10M   165KB/s    eta 5m 4s  
+Miniconda3-latest-Linux-x86_64.sh           4%[==>                                                                                   ]   3.18M   177KB/s    eta 5m 4s  
+Miniconda3-latest-Linux-x86_64.sh           4%[==>                                                                                   ]   3.21M   175KB/s    eta 5m 4s  
+Miniconda3-latest-Linux-x86_64.sh           4%[==>                                                                                   ]   3.26M   174KB/s    eta 5m 2s  
+Miniconda3-latest-Linux-x86_64.sh           4%[==>                                                                                   ]   3.30M   157KB/s    eta 5m 2s  
+Miniconda3-latest-Linux-x86_64.sh           4%[===>                                                                                  ]   3.37M   166KB/s    eta 5m 2s  
+Miniconda3-latest-Linux-x86_64.sh           4%[===>                                                                                  ]   3.40M   164KB/s    eta 5m 2s  
+Miniconda3-latest-Linux-x86_64.sh           4%[===>                                                                                  ]   3.41M   162KB/s    eta 5m 2s  
+Miniconda3-latest-Linux-x86_64.sh           4%[===>                                                                                  ]   3.54M   172KB/s    eta 5m 0s  
+Miniconda3-latest-Linux-x86_64.sh           4%[===>                                                                                  ]   3.60M   158KB/s    eta 5m 0s  
+Miniconda3-latest-Linux-x86_64.sh           5%[===>                                                                                  ]   3.65M   160KB/s    eta 5m 0s  
+Miniconda3-latest-Linux-x86_64.sh           5%[===>                                                                                  ]   3.72M   161KB/s    eta 5m 0s  
+Miniconda3-latest-Linux-x86_64.sh           5%[===>                                                                                  ]   3.80M   162KB/s    eta 4m 59s 
+Miniconda3-latest-Linux-x86_64.sh           5%[===>                                                                                  ]   3.88M   168KB/s    eta 4m 59s 
+Miniconda3-latest-Linux-x86_64.sh           5%[===>                                                                                  ]   3.97M   177KB/s    eta 4m 59s 
+Miniconda3-latest-Linux-x86_64.sh           5%[===>                                                                                  ]   4.12M   216KB/s    eta 4m 59s 
+Miniconda3-latest-Linux-x86_64.sh           5%[====>                                                                                 ]   4.22M   237KB/s    eta 4m 59s 
+Miniconda3-latest-Linux-x86_64.sh           5%[====>                                                                                 ]   4.26M   277KB/s    eta 4m 44s 
+Miniconda3-latest-Linux-x86_64.sh           5%[====>                                                                                 ]   4.32M   282KB/s    eta 4m 44s 
+Miniconda3-latest-Linux-x86_64.sh           6%[====>                                                                                 ]   4.38M   277KB/s    eta 4m 44s 
+Miniconda3-latest-Linux-x86_64.sh           6%[====>                                                                                 ]   4.43M   279KB/s    eta 4m 44s 
+Miniconda3-latest-Linux-x86_64.sh           6%[====>                                                                                 ]   4.52M   285KB/s    eta 4m 42s 
+Miniconda3-latest-Linux-x86_64.sh           6%[====>                                                                                 ]   4.62M   298KB/s    eta 4m 42s 
+Miniconda3-latest-Linux-x86_64.sh           6%[====>                                                                                 ]   4.68M   295KB/s    eta 4m 42s 
+Miniconda3-latest-Linux-x86_64.sh           6%[====>                                                                                 ]   4.76M   262KB/s    eta 4m 46s 
+Miniconda3-latest-Linux-x86_64.sh           6%[====>                                                                                 ]   4.88M   274KB/s    eta 4m 46s 
+Miniconda3-latest-Linux-x86_64.sh           6%[====>                                                                                 ]   4.97M   301KB/s    eta 4m 46s 
+Miniconda3-latest-Linux-x86_64.sh           7%[=====>                                                                                ]   5.07M   311KB/s    eta 4m 46s 
+Miniconda3-latest-Linux-x86_64.sh           7%[=====>                                                                                ]   5.15M   305KB/s    eta 4m 46s 
+Miniconda3-latest-Linux-x86_64.sh           7%[=====>                                                                                ]   5.18M   288KB/s    eta 4m 38s 
+Miniconda3-latest-Linux-x86_64.sh           7%[=====>                                                                                ]   5.26M   286KB/s    eta 4m 38s 
+Miniconda3-latest-Linux-x86_64.sh           7%[=====>                                                                                ]   5.30M   265KB/s    eta 4m 38s 
+Miniconda3-latest-Linux-x86_64.sh           7%[=====>                                                                                ]   5.33M   240KB/s    eta 4m 42s 
+Miniconda3-latest-Linux-x86_64.sh           7%[=====>                                                                                ]   5.41M   234KB/s    eta 4m 42s 
+Miniconda3-latest-Linux-x86_64.sh           7%[=====>                                                                                ]   5.47M   242KB/s    eta 4m 42s 
+Miniconda3-latest-Linux-x86_64.sh           7%[=====>                                                                                ]   5.58M   251KB/s    eta 4m 42s 
+Miniconda3-latest-Linux-x86_64.sh           7%[=====>                                                                                ]   5.69M   263KB/s    eta 4m 42s 
+Miniconda3-latest-Linux-x86_64.sh           8%[======>                                                                               ]   5.91M   295KB/s    eta 4m 25s 
+Miniconda3-latest-Linux-x86_64.sh           8%[======>                                                                               ]   6.22M   349KB/s    eta 4m 25s 
+Miniconda3-latest-Linux-x86_64.sh           8%[======>                                                                               ]   6.44M   353KB/s    eta 4m 25s 
+Miniconda3-latest-Linux-x86_64.sh           9%[======>                                                                               ]   6.58M   389KB/s    eta 4m 25s 
+Miniconda3-latest-Linux-x86_64.sh           9%[=======>                                                                              ]   6.76M   423KB/s    eta 4m 1s  
+Miniconda3-latest-Linux-x86_64.sh           9%[=======>                                                                              ]   7.01M   428KB/s    eta 4m 1s  
+Miniconda3-latest-Linux-x86_64.sh           9%[=======>                                                                              ]   7.21M   460KB/s    eta 4m 1s  
+Miniconda3-latest-Linux-x86_64.sh          10%[=======>                                                                              ]   7.38M   479KB/s    eta 4m 1s  
+Miniconda3-latest-Linux-x86_64.sh          10%[========>                                                                             ]   7.60M   547KB/s    eta 3m 43s 
+Miniconda3-latest-Linux-x86_64.sh          10%[========>                                                                             ]   7.80M   607KB/s    eta 3m 43s 
+Miniconda3-latest-Linux-x86_64.sh          11%[========>                                                                             ]   8.07M   682KB/s    eta 3m 43s 
+Miniconda3-latest-Linux-x86_64.sh          11%[========>                                                                             ]   8.37M   737KB/s    eta 3m 43s 
+Miniconda3-latest-Linux-x86_64.sh          12%[=========>                                                                            ]   8.77M   842KB/s    eta 3m 43s 
+Miniconda3-latest-Linux-x86_64.sh          12%[=========>                                                                            ]   9.19M   921KB/s    eta 3m 7s  
+Miniconda3-latest-Linux-x86_64.sh          13%[==========>                                                                           ]   9.44M   926KB/s    eta 3m 7s  
+Miniconda3-latest-Linux-x86_64.sh          13%[==========>                                                                           ]   9.55M   792KB/s    eta 3m 7s  
+Miniconda3-latest-Linux-x86_64.sh          13%[==========>                                                                           ]   9.85M   785KB/s    eta 3m 2s  
+Miniconda3-latest-Linux-x86_64.sh          13%[==========>                                                                           ]   9.93M   698KB/s    eta 3m 2s  
+Miniconda3-latest-Linux-x86_64.sh          13%[==========>                                                                           ]   9.96M   633KB/s    eta 3m 7s  
+Miniconda3-latest-Linux-x86_64.sh          13%[==========>                                                                           ]  10.01M   604KB/s    eta 3m 7s  
+Miniconda3-latest-Linux-x86_64.sh          14%[===========>                                                                          ]  10.21M   546KB/s    eta 3m 10s 
+Miniconda3-latest-Linux-x86_64.sh          14%[===========>                                                                          ]  10.29M   519KB/s    eta 3m 10s 
+Miniconda3-latest-Linux-x86_64.sh          14%[===========>                                                                          ]  10.30M   486KB/s    eta 3m 10s 
+Miniconda3-latest-Linux-x86_64.sh          14%[===========>                                                                          ]  10.54M   464KB/s    eta 3m 9s  
+Miniconda3-latest-Linux-x86_64.sh          14%[===========>                                                                          ]  10.62M   405KB/s    eta 3m 9s  
+Miniconda3-latest-Linux-x86_64.sh          14%[===========>                                                                          ]  10.74M   358KB/s    eta 3m 11s 
+Miniconda3-latest-Linux-x86_64.sh          15%[============>                                                                         ]  10.91M   330KB/s    eta 3m 11s 
+Miniconda3-latest-Linux-x86_64.sh          15%[============>                                                                         ]  10.96M   282KB/s    eta 3m 11s 
+Miniconda3-latest-Linux-x86_64.sh          15%[============>                                                                         ]  11.08M   249KB/s    eta 3m 11s 
+Miniconda3-latest-Linux-x86_64.sh          15%[============>                                                                         ]  11.22M   254KB/s    eta 3m 9s  
+Miniconda3-latest-Linux-x86_64.sh          15%[============>                                                                         ]  11.37M   260KB/s    eta 3m 9s  
+Miniconda3-latest-Linux-x86_64.sh          15%[============>                                                                         ]  11.40M   264KB/s    eta 3m 9s  
+Miniconda3-latest-Linux-x86_64.sh          16%[============>                                                                         ]  11.66M   265KB/s    eta 3m 9s  
+Miniconda3-latest-Linux-x86_64.sh          16%[=============>                                                                        ]  11.93M   311KB/s    eta 3m 9s  
+Miniconda3-latest-Linux-x86_64.sh          16%[=============>                                                                        ]  12.21M   348KB/s    eta 2m 56s 
+Miniconda3-latest-Linux-x86_64.sh          17%[=============>                                                                        ]  12.49M   421KB/s    eta 2m 56s 
+Miniconda3-latest-Linux-x86_64.sh          17%[=============>                                                                        ]  12.57M   420KB/s    eta 2m 56s 
+Miniconda3-latest-Linux-x86_64.sh          17%[==============>                                                                       ]  12.71M   431KB/s    eta 2m 56s 
+Miniconda3-latest-Linux-x86_64.sh          17%[==============>                                                                       ]  12.77M   438KB/s    eta 2m 53s 
+Miniconda3-latest-Linux-x86_64.sh          17%[==============>                                                                       ]  12.90M   431KB/s    eta 2m 53s 
+Miniconda3-latest-Linux-x86_64.sh          18%[==============>                                                                       ]  13.07M   459KB/s    eta 2m 53s 
+Miniconda3-latest-Linux-x86_64.sh          18%[==============>                                                                       ]  13.38M   480KB/s    eta 2m 48s 
+Miniconda3-latest-Linux-x86_64.sh          19%[===============>                                                                      ]  13.72M   525KB/s    eta 2m 48s 
+Miniconda3-latest-Linux-x86_64.sh          19%[===============>                                                                      ]  13.96M   602KB/s    eta 2m 48s 
+Miniconda3-latest-Linux-x86_64.sh          19%[===============>                                                                      ]  14.01M   558KB/s    eta 2m 43s 
+Miniconda3-latest-Linux-x86_64.sh          19%[===============>                                                                      ]  14.10M   572KB/s    eta 2m 43s 
+Miniconda3-latest-Linux-x86_64.sh          19%[===============>                                                                      ]  14.22M   572KB/s    eta 2m 43s 
+Miniconda3-latest-Linux-x86_64.sh          19%[===============>                                                                      ]  14.24M   557KB/s    eta 2m 43s 
+Miniconda3-latest-Linux-x86_64.sh          19%[================>                                                                     ]  14.40M   495KB/s    eta 2m 46s 
+Miniconda3-latest-Linux-x86_64.sh          20%[================>                                                                     ]  14.52M   510KB/s    eta 2m 46s 
+Miniconda3-latest-Linux-x86_64.sh          20%[================>                                                                     ]  14.72M   464KB/s    eta 2m 46s 
+Miniconda3-latest-Linux-x86_64.sh          20%[================>                                                                     ]  14.76M   429KB/s    eta 2m 45s 
+Miniconda3-latest-Linux-x86_64.sh          20%[================>                                                                     ]  14.94M   419KB/s    eta 2m 45s 
+Miniconda3-latest-Linux-x86_64.sh          21%[=================>                                                                    ]  15.19M   404KB/s    eta 2m 45s 
+Miniconda3-latest-Linux-x86_64.sh          21%[=================>                                                                    ]  15.63M   464KB/s    eta 2m 45s 
+Miniconda3-latest-Linux-x86_64.sh          22%[==================>                                                                   ]  16.04M   537KB/s    eta 2m 32s 
+Miniconda3-latest-Linux-x86_64.sh          22%[==================>                                                                   ]  16.41M   601KB/s    eta 2m 32s 
+Miniconda3-latest-Linux-x86_64.sh          23%[===================>                                                                  ]  16.87M   644KB/s    eta 2m 32s 
+Miniconda3-latest-Linux-x86_64.sh          24%[===================>                                                                  ]  17.37M   670KB/s    eta 2m 32s 
+Miniconda3-latest-Linux-x86_64.sh          24%[====================>                                                                 ]  17.76M   682KB/s    eta 2m 32s 
+Miniconda3-latest-Linux-x86_64.sh          25%[====================>                                                                 ]  18.18M   774KB/s    eta 2m 12s 
+Miniconda3-latest-Linux-x86_64.sh          25%[=====================>                                                                ]  18.63M   882KB/s    eta 2m 12s 
+Miniconda3-latest-Linux-x86_64.sh          26%[=====================>                                                                ]  19.04M   987KB/s    eta 2m 12s 
+Miniconda3-latest-Linux-x86_64.sh          27%[======================>                                                               ]  19.54M  1.09MB/s    eta 2m 12s 
+Miniconda3-latest-Linux-x86_64.sh          27%[======================>                                                               ]  19.93M  1.37MB/s    eta 2m 12s 
+Miniconda3-latest-Linux-x86_64.sh          28%[=======================>                                                              ]  20.33M  1.46MB/s    eta 1m 56s 
+Miniconda3-latest-Linux-x86_64.sh          28%[=======================>                                                              ]  20.66M  1.59MB/s    eta 1m 56s 
+Miniconda3-latest-Linux-x86_64.sh          28%[=======================>                                                              ]  20.88M  1.69MB/s    eta 1m 56s 
+Miniconda3-latest-Linux-x86_64.sh          29%[========================>                                                             ]  21.27M  1.75MB/s    eta 1m 56s 
+Miniconda3-latest-Linux-x86_64.sh          30%[========================>                                                             ]  21.66M  1.96MB/s    eta 1m 56s 
+Miniconda3-latest-Linux-x86_64.sh          30%[=========================>                                                            ]  22.07M  1.95MB/s    eta 1m 46s 
+Miniconda3-latest-Linux-x86_64.sh          30%[=========================>                                                            ]  22.22M  1.81MB/s    eta 1m 46s 
+Miniconda3-latest-Linux-x86_64.sh          31%[==========================>                                                           ]  22.66M  1.82MB/s    eta 1m 46s 
+Miniconda3-latest-Linux-x86_64.sh          32%[==========================>                                                           ]  23.10M  1.83MB/s    eta 1m 46s 
+Miniconda3-latest-Linux-x86_64.sh          32%[===========================>                                                          ]  23.63M  1.86MB/s    eta 1m 46s 
+Miniconda3-latest-Linux-x86_64.sh          33%[===========================>                                                          ]  24.15M  1.85MB/s    eta 95s    
+Miniconda3-latest-Linux-x86_64.sh          34%[============================>                                                         ]  24.80M  1.93MB/s    eta 95s    
+Miniconda3-latest-Linux-x86_64.sh          35%[=============================>                                                        ]  25.46M  1.99MB/s    eta 95s    
+Miniconda3-latest-Linux-x86_64.sh          36%[==============================>                                                       ]  26.35M  2.12MB/s    eta 95s    
+Miniconda3-latest-Linux-x86_64.sh          37%[===============================>                                                      ]  27.33M  2.25MB/s    eta 95s    
+Miniconda3-latest-Linux-x86_64.sh          39%[================================>                                                     ]  28.24M  2.38MB/s    eta 76s    
+Miniconda3-latest-Linux-x86_64.sh          40%[==================================>                                                   ]  29.43M  2.63MB/s    eta 76s    
+Miniconda3-latest-Linux-x86_64.sh          42%[===================================>                                                  ]  30.62M  2.82MB/s    eta 76s    
+Miniconda3-latest-Linux-x86_64.sh          44%[====================================>                                                 ]  31.80M  3.10MB/s    eta 76s    
+Miniconda3-latest-Linux-x86_64.sh          45%[======================================>                                               ]  32.83M  3.33MB/s    eta 76s    
+Miniconda3-latest-Linux-x86_64.sh          47%[=======================================>                                              ]  34.01M  3.50MB/s    eta 56s    
+Miniconda3-latest-Linux-x86_64.sh          48%[========================================>                                             ]  34.99M  3.65MB/s    eta 56s    
+Miniconda3-latest-Linux-x86_64.sh          49%[=========================================>                                            ]  35.94M  4.13MB/s    eta 56s    
+Miniconda3-latest-Linux-x86_64.sh          51%[===========================================>                                          ]  37.21M  4.37MB/s    eta 56s    
+Miniconda3-latest-Linux-x86_64.sh          53%[============================================>                                         ]  38.33M  4.49MB/s    eta 56s    
+Miniconda3-latest-Linux-x86_64.sh          54%[==============================================>                                       ]  39.52M  4.65MB/s    eta 42s    
+Miniconda3-latest-Linux-x86_64.sh          56%[===============================================>                                      ]  40.62M  4.89MB/s    eta 42s    
+Miniconda3-latest-Linux-x86_64.sh          58%[=================================================>                                    ]  41.99M  5.08MB/s    eta 42s    
+Miniconda3-latest-Linux-x86_64.sh          59%[==================================================>                                   ]  43.02M  5.17MB/s    eta 42s    
+Miniconda3-latest-Linux-x86_64.sh          60%[===================================================>                                  ]  43.85M  5.22MB/s    eta 42s    
+Miniconda3-latest-Linux-x86_64.sh          62%[====================================================>                                 ]  45.12M  5.25MB/s    eta 31s    
+Miniconda3-latest-Linux-x86_64.sh          64%[======================================================>                               ]  46.22M  5.26MB/s    eta 31s    
+Miniconda3-latest-Linux-x86_64.sh          65%[=======================================================>                              ]  47.24M  5.25MB/s    eta 31s    
+Miniconda3-latest-Linux-x86_64.sh          67%[========================================================>                             ]  48.51M  5.24MB/s    eta 31s    
+Miniconda3-latest-Linux-x86_64.sh          68%[==========================================================>                           ]  49.77M  5.22MB/s    eta 31s    
+Miniconda3-latest-Linux-x86_64.sh          70%[===========================================================>                          ]  50.91M  5.22MB/s    eta 22s    
+Miniconda3-latest-Linux-x86_64.sh          71%[============================================================>                         ]  51.85M  5.23MB/s    eta 22s    
+Miniconda3-latest-Linux-x86_64.sh          73%[==============================================================>                       ]  52.93M  5.35MB/s    eta 22s    
+Miniconda3-latest-Linux-x86_64.sh          74%[===============================================================>                      ]  53.96M  5.24MB/s    eta 22s    
+Miniconda3-latest-Linux-x86_64.sh          76%[================================================================>                     ]  55.10M  5.25MB/s    eta 22s    
+Miniconda3-latest-Linux-x86_64.sh          78%[==================================================================>                   ]  56.29M  5.24MB/s    eta 15s    
+Miniconda3-latest-Linux-x86_64.sh          79%[===================================================================>                  ]  57.15M  5.14MB/s    eta 15s    
+Miniconda3-latest-Linux-x86_64.sh          80%[====================================================================>                 ]  58.40M  5.14MB/s    eta 15s    
+Miniconda3-latest-Linux-x86_64.sh          82%[=====================================================================>                ]  59.44M  5.15MB/s    eta 15s    
+Miniconda3-latest-Linux-x86_64.sh          84%[=======================================================================>              ]  60.82M  5.21MB/s    eta 15s    
+Miniconda3-latest-Linux-x86_64.sh          85%[========================================================================>             ]  61.96M  5.35MB/s    eta 9s     
+Miniconda3-latest-Linux-x86_64.sh          87%[==========================================================================>           ]  63.13M  5.33MB/s    eta 9s     
+Miniconda3-latest-Linux-x86_64.sh          89%[===========================================================================>          ]  64.33M  5.29MB/s    eta 9s     
+Miniconda3-latest-Linux-x86_64.sh          90%[=============================================================================>        ]  65.57M  5.36MB/s    eta 9s     
+Miniconda3-latest-Linux-x86_64.sh          92%[==============================================================================>       ]  66.85M  5.40MB/s    eta 9s     
+Miniconda3-latest-Linux-x86_64.sh          93%[===============================================================================>      ]  67.82M  5.39MB/s    eta 4s     
+Miniconda3-latest-Linux-x86_64.sh          95%[=================================================================================>    ]  68.96M  5.39MB/s    eta 4s     
+Miniconda3-latest-Linux-x86_64.sh          96%[==================================================================================>   ]  69.93M  5.38MB/s    eta 4s     
+Miniconda3-latest-Linux-x86_64.sh          97%[===================================================================================>  ]  70.50M  5.29MB/s    eta 4s     
+Miniconda3-latest-Linux-x86_64.sh          99%[====================================================================================> ]  71.65M  5.29MB/s    eta 4s     
+Miniconda3-latest-Linux-x86_64.sh         100%[=====================================================================================>]  72.16M  5.37MB/s    in 57s     
+
+2022-05-13 12:15:11 (1.26 MB/s) - ‘Miniconda3-latest-Linux-x86_64.sh’ saved [75660608/75660608]
+
+]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ sudo chmod +x Miniconda3-latest-Linux-x86_64.sh
+]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$  ./Miniconda3-latest-Linux-x86_64.sh
+
+Welcome to Miniconda3 py39_4.11.0
+
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+>>> 
+===================================
+End User License Agreement - Miniconda
+===================================
+
+Copyright 2015-2021, Anaconda, Inc.
+
+All rights reserved under the 3-clause BSD License:
+
+This End User License Agreement (the "Agreement") is a legal agreement between you and Anaconda, Inc. ("Anaconda") and governs your use of Miniconda.
+
+Subject to the terms of this Agreement, Anaconda hereby grants you a non-exclusive, non-transferable license to:
+
+  * Install and use the Miniconda.
+  * Modify and create derivative works of sample source code delivered in Miniconda subject to the Terms of Service for the Repository (as defined hereinafter) availabl
+e at https://www.anaconda.com/terms-of-service, and
+
+  * Redistribute code files in source (if provided to you by Anaconda as source) and binary forms, with or without modification subject to the requirements set forth be
+low.
+
+Anaconda may, at its option, make available patches, workarounds or other updates to Miniconda. Unless the updates are provided with their separate governing terms, the
+y are deemed part of Miniconda licensed to you as provided in this Agreement. This Agreement does not entitle you to any support for Miniconda.
+
+Anaconda reserves all rights not expressly granted to you in this Agreement.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other mat
+erials provided with the distribution.
+  * Neither the name of Anaconda nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written 
+permission.
+  * The purpose of the redistribution is not part of a commercial product for resale. Please contact the Anaconda team for a third party redistribution commercial licen
+se.
+  * Commercial usage of the repository is non-compliant with our Terms of Service . Please contact us to learn more about our commercial offerings.
+
+You acknowledge that, as between you and Anaconda, Anaconda owns all right, title, and interest, including all intellectual property rights, in and to Miniconda and, wi
+th respect to third-party products distributed with or through Miniconda, the applicable third-party licensors own all right, title and interest, including all intellec
+tual property rights, in and to such products. If you send or transmit any communications or materials to Anaconda suggesting or recommending changes to the software or
+ documentation, including without limitation, new features or functionality relating thereto, or any comments, questions, suggestions or the like ("Feedback"), Anaconda
+ is free to use such Feedback. You hereby assign to Anaconda all right, title, and interest in, and Anaconda is free to use, without any attribution or compensation to 
+any party, any ideas, know-how, concepts, techniques or other intellectual property rights contained in the Feedback, for any purpose whatsoever, although Anaconda is n
+ot required to use any Feedback.
+
+[7m--More--[27m
+DISCLAIMER
+[7m--More--[27m
+==========
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+THIS SOFTWARE IS PROVIDED BY ANACONDA AND ITS CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCH
+[7m--More--[27m
+ANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ANACONDA BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQ
+[7m--More--[27m
+UENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+[7m--More--[27m
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+[7m--More--[27m
+ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, ANACONDA AND ITS AFFILIATES SHALL NOT BE LIABLE FOR ANY SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES, OR ANY LOST PROF
+[7m--More--[27m
+ITS, LOSS OF USE, LOSS OF DATA OR LOSS OF GOODWILL, OR THE COSTS OF PROCURING SUBSTITUTE PRODUCTS, ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE OR PER
+[7m--More--[27m
+FORMANCE OF ANACONDA INDIVIDUAL EDITION, WHETHER SUCH LIABILITY ARISES FROM ANY CLAIM BASED UPON BREACH OF CONTRACT, BREACH OF WARRANTY, TORT (INCLUDING NEGLIGENCE), PR
+[7m--More--[27m
+ODUCT LIABILITY OR ANY OTHER CAUSE OF ACTION OR THEORY OF LIABILITY. IN NO EVENT WILL THE TOTAL CUMULATIVE LIABILITY OF ANACONDA AND ITS AFFILIATES UNDER OR ARISING OUT
+[7m--More--[27m
+ OF THIS AGREEMENT EXCEED US.00.
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+Miscellaneous
+[7m--More--[27m
+=============
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+If you want to terminate this Agreement, you may do so by discontinuing use of Miniconda. Anaconda may, at any time, terminate this Agreement and the license granted he
+[7m--More--[27m
+reunder if you fail to comply with any term of this Agreement. Upon any termination of this Agreement, you agree to promptly discontinue use of the Miniconda and destro
+[7m--More--[27m
+y all copies in your possession or control. Upon any termination of this Agreement all provisions survive except for the licenses granted to you.
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+This Agreement is governed by and construed in accordance with the internal laws of the State of Texas without giving effect to any choice or conflict of law provision 
+[7m--More--[27m
+or rule that would require or permit the application of the laws of any jurisdiction other than those of the State of Texas. Any legal suit, action, or proceeding arisi
+[7m--More--[27m
+ng out of or related to this Agreement or the licenses granted hereunder by you must be instituted exclusively in the federal courts of the United States or the courts 
+[7m--More--[27m
+of the State of Texas in each case located in Travis County, Texas, and you irrevocably submit to the jurisdiction of such courts in any such suit, action, or proceedin
+[7m--More--[27m
+g.[K
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+Notice of Third Party Software Licenses
+[7m--More--[27m
+=======================================
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+Miniconda provides access to a repository (the "Repository") which contains software packages or tools licensed on an open source basis from third parties and binary pa
+[7m--More--[27m
+ckages of these third party tools. These third party software packages or tools are provided on an "as is" basis and are subject to their respective license agreements 
+[7m--More--[27m
+as well as this Agreement and the Terms of Service for the Repository located at https://www.anaconda.com/terms-of-service; provided, however, no restriction contained 
+[7m--More--[27m
+in the Terms of Service shall be construed so as to limit Your ability to download the packages contained in Miniconda provided you comply with the license for each suc
+[7m--More--[27m
+h package. These licenses may be accessed from within the Miniconda software[1]  or https://www.anaconda.com/legal. Information regarding which license is applicable is
+[7m--More--[27m
+ available from within many of the third party software packages and tools and athttps://repo.anaconda.com/pkgs/main/ andhttps://repo.anaconda.com/pkgs/r/. Anaconda res
+[7m--More--[27m
+erves the right, in its sole discretion, to change which third party tools are included in the Repository accessible through Miniconda.
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+Intel Math Kernel Library
+[7m--More--[27m
+-------------------------
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+Miniconda provides access to re-distributable, run-time, shared-library files from the Intel Math Kernel Library ("MKL binaries").
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+Copyright 2018 Intel Corporation. License available at https://software.intel.com/en-us/license/intel-simplified-software-license (the "MKL License").
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+You may use and redistribute the MKL binaries, without modification, provided the following conditions are met:
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+  * Redistributions must reproduce the above copyright notice and the following terms of use in the MKL binaries and in the documentation and/or other materials provide
+[7m--More--[27m
+d with the distribution.
+[7m--More--[27m
+  * Neither the name of Intel nor the names of its suppliers may be used to endorse or promote products derived from the MKL binaries without specific prior written per
+[7m--More--[27m
+mission.
+[7m--More--[27m
+  * No reverse engineering, decompilation, or disassembly of the MKL binaries is permitted.
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+You are specifically authorized to use and redistribute the MKL binaries with your installation of Miniconda subject to the terms set forth in the MKL License. You are 
+[7m--More--[27m
+also authorized to redistribute the MKL binaries with Miniconda or in the Anaconda package that contains the MKL binaries. If needed, instructions for removing the MKL 
+[7m--More--[27m
+binaries after installation of Miniconda are available at https://docs.anaconda.com.
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+cuDNN Software
+[7m--More--[27m
+--------------
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+Miniconda also provides access to cuDNN software binaries ("cuDNN binaries") from NVIDIA Corporation. You are specifically authorized to use the cuDNN binaries with you
+[7m--More--[27m
+r installation of Miniconda subject to your compliance with the license agreement located at https://docs.nvidia.com/deeplearning/sdk/cudnn-sla/index.html. You are also
+[7m--More--[27m
+ authorized to redistribute the cuDNN binaries with an Miniconda package that contains the cuDNN binaries. You can add or remove the cuDNN binaries utilizing the instal
+[7m--More--[27m
+l and uninstall features in Miniconda.
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+cuDNN binaries contain source code provided by NVIDIA Corporation.
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+Arm Performance Libraries
+[7m--More--[27m
+-------------------------
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+Arm Performance Libraries (Free Version): Anaconda provides access to software and related documentation from the Arm Performance Libraries ("Arm PL") provided by Arm L
+[7m--More--[27m
+imited. By installing or otherwise accessing the Arm PL, you acknowledge and agree that use and distribution of the Arm PL is subject to your compliance with the Arm PL
+[7m--More--[27m
+ end user license agreement located at: https://developer.arm.com/tools-and-software/server-and-hpc/downloads/arm-performance-libraries/eula.
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+Export; Cryptography Notice
+[7m--More--[27m
+===========================
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+You must comply with all domestic and international export laws and regulations that apply to the software, which include restrictions on destinations, end users, and e
+[7m--More--[27m
+nd use. Miniconda includes cryptographic software. The country in which you currently reside may have restrictions on the import, possession, use, and/or re-export to a
+[7m--More--[27m
+nother country, of encryption software. BEFORE using any encryption software, please check your country's laws, regulations and policies concerning the import, possessi
+[7m--More--[27m
+on, or use, and re-export of encryption software, to see if this is permitted. See the Wassenaar Arrangement http://www.wassenaar.org/ for more information.
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+Anaconda has self-classified this software as Export Commodity Control Number (ECCN) 5D992.c, which includes mass market information security software using or performi
+[7m--More--[27m
+ng cryptographic functions with asymmetric algorithms. No license is required for export of this software to non-embargoed countries.
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+The Intel Math Kernel Library contained in Miniconda is classified by Intel as ECCN 5D992.c with no license required for export to non-embargoed countries.
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+The following packages listed on https://www.anaconda.com/cryptography are included in the repository accessible through Miniconda that relate to cryptography.
+[7m--More--[27m
+
+[K
+[7m--More--[27m
+Last updated June 24, 2021
+[7m--More--[27m
+
+[K
+
+Do you accept the license terms? [yes|no]
+[no] >>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> 
+Please answer 'yes' or 'no':'
+>>> yes
+
+Miniconda3 will now be installed into this location:
+/home/vparul/miniconda3
+
+  - Press ENTER to confirm the location
+  - Press CTRL-C to abort the installation
+  - Or specify a different location below
+
+[/home/vparul/miniconda3] >>> 
+PREFIX=/home/vparul/miniconda3
+Unpacking payload ...
+
+  0%|                                                                                                                                            | 0/39 [00:00<?, ?it/s]
+Extracting : brotlipy-0.7.0-py39h27cfd23_1003.conda:   0%|                                                                                       | 0/39 [00:00<?, ?it/s]
+Extracting : brotlipy-0.7.0-py39h27cfd23_1003.conda:   3%|██                                                                             | 1/39 [00:00<00:21,  1.77it/s]
+Extracting : ca-certificates-2021.10.26-h06a4308_2.conda:   3%|█▉                                                                        | 1/39 [00:00<00:21,  1.77it/s]
+Extracting : certifi-2021.10.8-py39h06a4308_2.conda:   5%|████                                                                           | 2/39 [00:00<00:20,  1.77it/s]
+Extracting : cffi-1.15.0-py39hd667e15_1.conda:   8%|██████▌                                                                              | 3/39 [00:00<00:20,  1.77it/s]
+Extracting : charset-normalizer-2.0.4-pyhd3eb1b0_0.conda:  10%|███████▌                                                                  | 4/39 [00:00<00:19,  1.77it/s]
+Extracting : charset-normalizer-2.0.4-pyhd3eb1b0_0.conda:  13%|█████████▍                                                                | 5/39 [00:00<00:03,  8.79it/s]
+Extracting : conda-4.11.0-py39h06a4308_0.conda:  13%|██████████▊                                                                         | 5/39 [00:11<00:03,  8.79it/s]
+Extracting : conda-content-trust-0.1.1-pyhd3eb1b0_0.conda:  15%|███████████▏                                                             | 6/39 [00:11<00:03,  8.79it/s]
+Extracting : conda-content-trust-0.1.1-pyhd3eb1b0_0.conda:  18%|█████████████                                                            | 7/39 [00:11<01:09,  2.17s/it]
+Extracting : conda-package-handling-1.7.3-py39h27cfd23_1.conda:  18%|████████████▏                                                       | 7/39 [00:11<01:09,  2.17s/it]
+Extracting : cryptography-36.0.0-py39h9ce1e76_0.conda:  21%|███████████████▊                                                             | 8/39 [00:11<01:07,  2.17s/it]
+Extracting : idna-3.3-pyhd3eb1b0_0.conda:  23%|████████████████████▊                                                                     | 9/39 [00:11<01:05,  2.17s/it]
+Extracting : ld_impl_linux-64-2.35.1-h7274673_9.conda:  26%|███████████████████▍                                                        | 10/39 [00:11<01:02,  2.17s/it]
+Extracting : libffi-3.3-he6710b0_2.conda:  28%|█████████████████████████                                                                | 11/39 [00:11<01:00,  2.17s/it]
+Extracting : libgcc-ng-9.3.0-h5101ec6_17.conda:  31%|█████████████████████████▌                                                         | 12/39 [00:11<00:58,  2.17s/it]
+Extracting : libgomp-9.3.0-h5101ec6_17.conda:  33%|████████████████████████████▎                                                        | 13/39 [00:11<00:56,  2.17s/it]
+Extracting : libstdcxx-ng-9.3.0-hd4cf53a_17.conda:  36%|████████████████████████████▋                                                   | 14/39 [00:11<00:54,  2.17s/it]
+Extracting : ncurses-6.3-h7f8727e_2.conda:  38%|█████████████████████████████████▊                                                      | 15/39 [00:11<00:52,  2.17s/it]
+Extracting : openssl-1.1.1m-h7f8727e_0.conda:  41%|██████████████████████████████████▊                                                  | 16/39 [00:11<00:49,  2.17s/it]
+Extracting : pip-21.2.4-py39h06a4308_0.conda:  44%|█████████████████████████████████████                                                | 17/39 [00:11<00:47,  2.17s/it]
+Extracting : pycosat-0.6.3-py39h27cfd23_0.conda:  46%|█████████████████████████████████████▊                                            | 18/39 [00:11<00:45,  2.17s/it]
+Extracting : pycparser-2.21-pyhd3eb1b0_0.conda:  49%|████████████████████████████████████████▍                                          | 19/39 [00:11<00:43,  2.17s/it]
+Extracting : pyopenssl-21.0.0-pyhd3eb1b0_1.conda:  51%|█████████████████████████████████████████▌                                       | 20/39 [00:11<00:41,  2.17s/it]
+Extracting : pysocks-1.7.1-py39h06a4308_0.conda:  54%|████████████████████████████████████████████▏                                     | 21/39 [00:11<00:39,  2.17s/it]
+Extracting : python-3.9.7-h12debd9_1.conda:  56%|█████████████████████████████████████████████████                                      | 22/39 [00:12<00:36,  2.17s/it]
+Extracting : python-3.9.7-h12debd9_1.conda:  59%|███████████████████████████████████████████████████▎                                   | 23/39 [00:12<00:07,  2.28it/s]
+Extracting : readline-8.1.2-h7f8727e_1.conda:  59%|██████████████████████████████████████████████████▏                                  | 23/39 [00:12<00:07,  2.28it/s]
+Extracting : requests-2.27.1-pyhd3eb1b0_0.conda:  62%|██████████████████████████████████████████████████▍                               | 24/39 [00:12<00:06,  2.28it/s]
+Extracting : ruamel_yaml-0.15.100-py39h27cfd23_0.conda:  64%|████████████████████████████████████████████████                           | 25/39 [00:12<00:06,  2.28it/s]
+Extracting : setuptools-58.0.4-py39h06a4308_0.conda:  67%|████████████████████████████████████████████████████                          | 26/39 [00:12<00:05,  2.28it/s]
+Extracting : six-1.16.0-pyhd3eb1b0_0.conda:  69%|████████████████████████████████████████████████████████████▏                          | 27/39 [00:12<00:05,  2.28it/s]
+Extracting : sqlite-3.37.0-hc218d9a_0.conda:  72%|█████████████████████████████████████████████████████████████▋                        | 28/39 [00:12<00:04,  2.28it/s]
+Extracting : tk-8.6.11-h1ccaba5_0.conda:  74%|██████████████████████████████████████████████████████████████████▉                       | 29/39 [00:12<00:04,  2.28it/s]
+Extracting : tqdm-4.62.3-pyhd3eb1b0_1.conda:  77%|██████████████████████████████████████████████████████████████████▏                   | 30/39 [00:12<00:03,  2.28it/s]
+Extracting : tzdata-2021e-hda174b7_0.conda:  79%|█████████████████████████████████████████████████████████████████████▏                 | 31/39 [00:12<00:03,  2.28it/s]
+Extracting : urllib3-1.26.7-pyhd3eb1b0_0.conda:  82%|████████████████████████████████████████████████████████████████████               | 32/39 [00:12<00:03,  2.28it/s]
+Extracting : wheel-0.37.1-pyhd3eb1b0_0.conda:  85%|███████████████████████████████████████████████████████████████████████▉             | 33/39 [00:12<00:02,  2.28it/s]
+Extracting : xz-5.2.5-h7b6447c_0.conda:  87%|███████████████████████████████████████████████████████████████████████████████▎           | 34/39 [00:12<00:02,  2.28it/s]
+Extracting : yaml-0.2.5-h7b6447c_0.conda:  90%|███████████████████████████████████████████████████████████████████████████████▊         | 35/39 [00:12<00:01,  2.28it/s]
+Extracting : zlib-1.2.11-h7f8727e_4.conda:  92%|█████████████████████████████████████████████████████████████████████████████████▏      | 36/39 [00:12<00:01,  2.28it/s]
+Extracting : _libgcc_mutex-0.1-main.conda:  95%|███████████████████████████████████████████████████████████████████████████████████▍    | 37/39 [00:12<00:00,  2.28it/s]
+Extracting : _openmp_mutex-4.5-1_gnu.tar.bz2:  97%|██████████████████████████████████████████████████████████████████████████████████▊  | 38/39 [00:12<00:00,  2.28it/s]
+                                                                                                                                                                        
+Collecting package metadata (current_repodata.json): - \ | / done
+Solving environment: \ | done
+
+## Package Plan ##
+
+  environment location: /home/vparul/miniconda3
+
+  added / updated specs:
+    - _libgcc_mutex==0.1=main
+    - _openmp_mutex==4.5=1_gnu
+    - brotlipy==0.7.0=py39h27cfd23_1003
+    - ca-certificates==2021.10.26=h06a4308_2
+    - certifi==2021.10.8=py39h06a4308_2
+    - cffi==1.15.0=py39hd667e15_1
+    - charset-normalizer==2.0.4=pyhd3eb1b0_0
+    - conda-content-trust==0.1.1=pyhd3eb1b0_0
+    - conda-package-handling==1.7.3=py39h27cfd23_1
+    - conda==4.11.0=py39h06a4308_0
+    - cryptography==36.0.0=py39h9ce1e76_0
+    - idna==3.3=pyhd3eb1b0_0
+    - ld_impl_linux-64==2.35.1=h7274673_9
+    - libffi==3.3=he6710b0_2
+    - libgcc-ng==9.3.0=h5101ec6_17
+    - libgomp==9.3.0=h5101ec6_17
+    - libstdcxx-ng==9.3.0=hd4cf53a_17
+    - ncurses==6.3=h7f8727e_2
+    - openssl==1.1.1m=h7f8727e_0
+    - pip==21.2.4=py39h06a4308_0
+    - pycosat==0.6.3=py39h27cfd23_0
+    - pycparser==2.21=pyhd3eb1b0_0
+    - pyopenssl==21.0.0=pyhd3eb1b0_1
+    - pysocks==1.7.1=py39h06a4308_0
+    - python==3.9.7=h12debd9_1
+    - readline==8.1.2=h7f8727e_1
+    - requests==2.27.1=pyhd3eb1b0_0
+    - ruamel_yaml==0.15.100=py39h27cfd23_0
+    - setuptools==58.0.4=py39h06a4308_0
+    - six==1.16.0=pyhd3eb1b0_0
+    - sqlite==3.37.0=hc218d9a_0
+    - tk==8.6.11=h1ccaba5_0
+    - tqdm==4.62.3=pyhd3eb1b0_1
+    - tzdata==2021e=hda174b7_0
+    - urllib3==1.26.7=pyhd3eb1b0_0
+    - wheel==0.37.1=pyhd3eb1b0_0
+    - xz==5.2.5=h7b6447c_0
+    - yaml==0.2.5=h7b6447c_0
+    - zlib==1.2.11=h7f8727e_4
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-4.5-1_gnu
+  brotlipy           pkgs/main/linux-64::brotlipy-0.7.0-py39h27cfd23_1003
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2021.10.26-h06a4308_2
+  certifi            pkgs/main/linux-64::certifi-2021.10.8-py39h06a4308_2
+  cffi               pkgs/main/linux-64::cffi-1.15.0-py39hd667e15_1
+  charset-normalizer pkgs/main/noarch::charset-normalizer-2.0.4-pyhd3eb1b0_0
+  conda              pkgs/main/linux-64::conda-4.11.0-py39h06a4308_0
+  conda-content-tru~ pkgs/main/noarch::conda-content-trust-0.1.1-pyhd3eb1b0_0
+  conda-package-han~ pkgs/main/linux-64::conda-package-handling-1.7.3-py39h27cfd23_1
+  cryptography       pkgs/main/linux-64::cryptography-36.0.0-py39h9ce1e76_0
+  idna               pkgs/main/noarch::idna-3.3-pyhd3eb1b0_0
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.35.1-h7274673_9
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-9.3.0-h5101ec6_17
+  libgomp            pkgs/main/linux-64::libgomp-9.3.0-h5101ec6_17
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-9.3.0-hd4cf53a_17
+  ncurses            pkgs/main/linux-64::ncurses-6.3-h7f8727e_2
+  openssl            pkgs/main/linux-64::openssl-1.1.1m-h7f8727e_0
+  pip                pkgs/main/linux-64::pip-21.2.4-py39h06a4308_0
+  pycosat            pkgs/main/linux-64::pycosat-0.6.3-py39h27cfd23_0
+  pycparser          pkgs/main/noarch::pycparser-2.21-pyhd3eb1b0_0
+  pyopenssl          pkgs/main/noarch::pyopenssl-21.0.0-pyhd3eb1b0_1
+  pysocks            pkgs/main/linux-64::pysocks-1.7.1-py39h06a4308_0
+  python             pkgs/main/linux-64::python-3.9.7-h12debd9_1
+  readline           pkgs/main/linux-64::readline-8.1.2-h7f8727e_1
+  requests           pkgs/main/noarch::requests-2.27.1-pyhd3eb1b0_0
+  ruamel_yaml        pkgs/main/linux-64::ruamel_yaml-0.15.100-py39h27cfd23_0
+  setuptools         pkgs/main/linux-64::setuptools-58.0.4-py39h06a4308_0
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_0
+  sqlite             pkgs/main/linux-64::sqlite-3.37.0-hc218d9a_0
+  tk                 pkgs/main/linux-64::tk-8.6.11-h1ccaba5_0
+  tqdm               pkgs/main/noarch::tqdm-4.62.3-pyhd3eb1b0_1
+  tzdata             pkgs/main/noarch::tzdata-2021e-hda174b7_0
+  urllib3            pkgs/main/noarch::urllib3-1.26.7-pyhd3eb1b0_0
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
+  xz                 pkgs/main/linux-64::xz-5.2.5-h7b6447c_0
+  yaml               pkgs/main/linux-64::yaml-0.2.5-h7b6447c_0
+  zlib               pkgs/main/linux-64::zlib-1.2.11-h7f8727e_4
+
+
+Preparing transaction: - \ | done
+Executing transaction: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+installation finished.
+Do you wish the installer to initialize Miniconda3
+by running conda init? [yes|no]
+[no] >>> yes
+no change     /home/vparul/miniconda3/condabin/conda
+no change     /home/vparul/miniconda3/bin/conda
+no change     /home/vparul/miniconda3/bin/conda-env
+no change     /home/vparul/miniconda3/bin/activate
+no change     /home/vparul/miniconda3/bin/deactivate
+no change     /home/vparul/miniconda3/etc/profile.d/conda.sh
+no change     /home/vparul/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/vparul/miniconda3/shell/condabin/Conda.psm1
+no change     /home/vparul/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/vparul/miniconda3/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /home/vparul/miniconda3/etc/profile.d/conda.csh
+modified      /home/vparul/.bashrc
+
+==> For changes to take effect, close and re-open your current shell. <==
+
+If you'd prefer that conda's base environment not be activated on startup, 
+   set the auto_activate_base parameter to false: 
+Script started on 2022-05-13 12:20:37+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ CONDA [K[K[K[K[K[Kconda activate
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda env list
+# conda environments:
+#
+base                  *  /home/vparul/miniconda3
+
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda create -n py39 python=3.9
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda --version
+conda 4.11.0
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda update conda
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-05-13 12:23:49+05:30 [COMMAND_EXIT_CODE="1"]
+Script started on 2022-05-13 12:24:39+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda script -a ~/assignment_Q3conda [Kactivate
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda create --name snowflakes biopython
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda deactivate
+]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda create --name snowflakes biopython
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda config --set ssl_verify false
+]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda create --name snowflakes biopython
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda activate
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda create --name snowflakes biopython
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda config --set ssl_verify false
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda create --name snowflakes biopython
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda deactivate
+]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda create -n py39 python=3.9[K8
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ failed
+
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/linux-64/current_repodata.json>
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+
+If your current network has https://www.anaconda.com blocked, please file
+a support request with your network engineering team.
+
+'https://repo.anaconda.com/pkgs/main/linux-64'
+
+
+]0;vparul@TIGER03118: ~[01;32mkScript started on 2022-05-13 14:25:22+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda activate
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ pyhton3 my_code.py
+
+Command 'pyhton3' not found, did you mean:
+
+  command 'python3' from deb python3 (3.8.2-0ubuntu2)
+
+Try: sudo apt install <deb name>
+
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ python3 my_code.py
+enter number 1:10
+enter number 2:20
+sum of two number : 30
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda deactivate
+]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-05-13 14:26:07+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-05-13 14:26:55+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda --version
+conda 4.11.0
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda -[Kenvs --list
+
+CommandNotFoundError: No command 'conda envs'.
+Did you mean 'conda env'?
+
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda envs
+
+CommandNotFoundError: No command 'conda envs'.
+Did you mean 'conda env'?
+
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda list
+# packages in environment at /home/vparul/miniconda3:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             4.5                       1_gnu  
+brotlipy                  0.7.0           py39h27cfd23_1003  
+ca-certificates           2021.10.26           h06a4308_2  
+certifi                   2021.10.8        py39h06a4308_2  
+cffi                      1.15.0           py39hd667e15_1  
+charset-normalizer        2.0.4              pyhd3eb1b0_0  
+conda                     4.11.0           py39h06a4308_0  
+conda-content-trust       0.1.1              pyhd3eb1b0_0  
+conda-package-handling    1.7.3            py39h27cfd23_1  
+cryptography              36.0.0           py39h9ce1e76_0  
+idna                      3.3                pyhd3eb1b0_0  
+ld_impl_linux-64          2.35.1               h7274673_9  
+libffi                    3.3                  he6710b0_2  
+libgcc-ng                 9.3.0               h5101ec6_17  
+libgomp                   9.3.0               h5101ec6_17  
+libstdcxx-ng              9.3.0               hd4cf53a_17  
+ncurses                   6.3                  h7f8727e_2  
+openssl                   1.1.1m               h7f8727e_0  
+pip                       21.2.4           py39h06a4308_0  
+pycosat                   0.6.3            py39h27cfd23_0  
+pycparser                 2.21               pyhd3eb1b0_0  
+pyopenssl                 21.0.0             pyhd3eb1b0_1  
+pysocks                   1.7.1            py39h06a4308_0  
+python                    3.9.7                h12debd9_1  
+readline                  8.1.2                h7f8727e_1  
+requests                  2.27.1             pyhd3eb1b0_0  
+ruamel_yaml               0.15.100         py39h27cfd23_0  
+setuptools                58.0.4           py39h06a4308_0  
+six                       1.16.0             pyhd3eb1b0_0  
+sqlite                    3.37.0               hc218d9a_0  
+tk                        8.6.11               h1ccaba5_0  
+tqdm                      4.62.3             pyhd3eb1b0_1  
+tzdata                    2021e                hda174b7_0  
+urllib3                   1.26.7             pyhd3eb1b0_0  
+wheel                     0.37.1             pyhd3eb1b0_0  
+xz                        5.2.5                h7b6447c_0  
+yaml                      0.2.5                h7b6447c_0  
+zlib                      1.2.11               h7f8727e_4  
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ conda deactivate
+]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2023-01-06 14:27:43+05:30 [COMMAND_EXIT_CODE="0"]

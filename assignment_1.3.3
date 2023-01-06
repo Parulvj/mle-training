@@ -1,0 +1,693 @@
+Script started on 2023-01-06 13:19:41+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ ls
+ [0m[01;34mDesktop[0m                             assignment1_2.2          assignment_q1   kl             [01;34mmy_project[0m
+ [01;34mvparul_MLE[0m                          assignment1_3            assignment_q2   [01;34mminiconda3[0m     new_file
+ [01;32mMiniconda3-latest-Linux-x86_64.sh[0m  'assignment_(1.1)_Q1.1'   basic           [01;34mmle-training[0m
+ assignment1_2                       assignment_Q3            file.txt        my_code.py
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ cd ml_[Ke_training
+bash: cd: mle_training: No such file or directory
+(base) ]0;vparul@TIGER03118: ~[01;32mvparul@TIGER03118[00m:[01;34m~[00m$ cd mle_training[1Ptraining-training
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ ls
+README.md  README.md:Zone.Identifier  environment.yml  nonstandardcode.py:Zone.Identifier
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git branch -a
+[?1h=
+  enh/#1/branch1[m[m
+* [32mmain[m[m
+  [31mremotes/origin/HEAD[m -> origin/main[m
+  [31mremotes/origin/enh/#1/branch1[m[m
+  [31mremotes/origin/main[m[m
+
+[K[?1l>(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ gir[Kt checkout -b fix/#3/manual-refactor
+Switched to a new branch 'fix/#3/manual-refactor'
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git branch -d fix/#3/manual-refactor
+error: Cannot delete branch 'fix/#3/manual-refactor' checked out at '/home/vparul/mle-training'
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git branch -a
+[?1h=
+  enh/#1/branch1[m[m
+* [32mfix/#3/manual-refactor[m[m
+  main[m[m
+  [31mremotes/origin/HEAD[m -> origin/main[m
+  [31mremotes/origin/enh/#1/branch1[m[m
+  [31mremotes/origin/main[m[m
+
+[K[?1l>(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git check [Kout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git checkout main[4Pbranch -ad fix/#3/manual-refactor
+Deleted branch fix/#3/manual-refactor (was 1967323).
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git branch -a
+[?1h=
+  enh/#1/branch1[m[m
+* [32mmain[m[m
+  [31mremotes/origin/HEAD[m -> origin/main[m
+  [31mremotes/origin/enh/#1/branch1[m[m
+  [31mremotes/origin/main[m[m
+
+[K[?1l>(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git branch[K[K[K[K[K[K[K[K[K[K git checkout -b fix/#3/manual-refactor v0.1
+Switched to a new branch 'fix/#3/manual-refactor'
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git branch -a
+[?1h=
+  enh/#1/branch1[m[m
+* [32mfix/#3/manual-refactor[m[m
+  main[m[m
+  [31mremotes/origin/HEAD[m -> origin/main[m
+  [31mremotes/origin/enh/#1/branch1[m[m
+  [31mremotes/origin/main[m[m
+
+[K[?1l>(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git status
+On branch fix/#3/manual-refactor
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mREADME.md:Zone.Identifier[m
+	[31mnonstandardcode.py:Zone.Identifier[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git pull
+remote: Enumerating objects: 4, done.[K
+remote: Counting objects:  25% (1/4)[K
+remote: Counting objects:  50% (2/4)[K
+remote: Counting objects:  75% (3/4)[K
+remote: Counting objects: 100% (4/4)[K
+remote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects:  50% (1/2)[K
+remote: Compressing objects: 100% (2/2)[K
+remote: Compressing objects: 100% (2/2), done.[K
+remote: Total 2 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  50% (1/2)
+Unpacking objects: 100% (2/2)
+Unpacking objects: 100% (2/2), 756 bytes | 84.00 KiB/s, done.
+From github.com:vparul-v/mle-training
+   1967323..091c6e6  main       -> origin/main
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> fix/#3/manual-refactor
+
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git status
+On branch fix/#3/manual-refactor
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mREADME.md:Zone.Identifier[m
+	[31mnonstandardcode.py:Zone.Identifier[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ ls
+README.md  README.md:Zone.Identifier  environment.yml  nonstandardcode.py:Zone.Identifier
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ pip install black
+Collecting black
+  Downloading black-22.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.5 MB)
+[?25l
+[K     |▎                               | 10 kB 3.2 MB/s eta 0:00:01
+[K     |▌                               | 20 kB 5.0 MB/s eta 0:00:01
+[K     |▊                               | 30 kB 4.6 MB/s eta 0:00:01
+[K     |█                               | 40 kB 5.6 MB/s eta 0:00:01
+[K     |█▏                              | 51 kB 1.3 MB/s eta 0:00:02
+[K     |█▍                              | 61 kB 1.5 MB/s eta 0:00:01
+[K     |█▋                              | 71 kB 1.8 MB/s eta 0:00:01
+[K     |█▉                              | 81 kB 2.0 MB/s eta 0:00:01
+[K     |██                              | 92 kB 2.2 MB/s eta 0:00:01
+[K     |██▎                             | 102 kB 1.7 MB/s eta 0:00:01
+[K     |██▌                             | 112 kB 1.7 MB/s eta 0:00:01
+[K     |██▊                             | 122 kB 1.7 MB/s eta 0:00:01
+[K     |███                             | 133 kB 1.7 MB/s eta 0:00:01
+[K     |███▏                            | 143 kB 1.7 MB/s eta 0:00:01
+[K     |███▍                            | 153 kB 1.7 MB/s eta 0:00:01
+[K     |███▋                            | 163 kB 1.7 MB/s eta 0:00:01
+[K     |███▉                            | 174 kB 1.7 MB/s eta 0:00:01
+[K     |████                            | 184 kB 1.7 MB/s eta 0:00:01
+[K     |████▎                           | 194 kB 1.7 MB/s eta 0:00:01
+[K     |████▌                           | 204 kB 1.7 MB/s eta 0:00:01
+[K     |████▊                           | 215 kB 1.7 MB/s eta 0:00:01
+[K     |█████                           | 225 kB 1.7 MB/s eta 0:00:01
+[K     |█████▏                          | 235 kB 1.7 MB/s eta 0:00:01
+[K     |█████▍                          | 245 kB 1.7 MB/s eta 0:00:01
+[K     |█████▋                          | 256 kB 1.7 MB/s eta 0:00:01
+[K     |█████▉                          | 266 kB 1.7 MB/s eta 0:00:01
+[K     |██████                          | 276 kB 1.7 MB/s eta 0:00:01
+[K     |██████▎                         | 286 kB 1.7 MB/s eta 0:00:01
+[K     |██████▌                         | 296 kB 1.7 MB/s eta 0:00:01
+[K     |██████▊                         | 307 kB 1.7 MB/s eta 0:00:01
+[K     |███████                         | 317 kB 1.7 MB/s eta 0:00:01
+[K     |███████▏                        | 327 kB 1.7 MB/s eta 0:00:01
+[K     |███████▍                        | 337 kB 1.7 MB/s eta 0:00:01
+[K     |███████▋                        | 348 kB 1.7 MB/s eta 0:00:01
+[K     |███████▉                        | 358 kB 1.7 MB/s eta 0:00:01
+[K     |████████                        | 368 kB 1.7 MB/s eta 0:00:01
+[K     |████████▎                       | 378 kB 1.7 MB/s eta 0:00:01
+[K     |████████▌                       | 389 kB 1.7 MB/s eta 0:00:01
+[K     |████████▊                       | 399 kB 1.7 MB/s eta 0:00:01
+[K     |█████████                       | 409 kB 1.7 MB/s eta 0:00:01
+[K     |█████████▏                      | 419 kB 1.7 MB/s eta 0:00:01
+[K     |█████████▍                      | 430 kB 1.7 MB/s eta 0:00:01
+[K     |█████████▋                      | 440 kB 1.7 MB/s eta 0:00:01
+[K     |█████████▉                      | 450 kB 1.7 MB/s eta 0:00:01
+[K     |██████████                      | 460 kB 1.7 MB/s eta 0:00:01
+[K     |██████████▎                     | 471 kB 1.7 MB/s eta 0:00:01
+[K     |██████████▌                     | 481 kB 1.7 MB/s eta 0:00:01
+[K     |██████████▊                     | 491 kB 1.7 MB/s eta 0:00:01
+[K     |███████████                     | 501 kB 1.7 MB/s eta 0:00:01
+[K     |███████████▏                    | 512 kB 1.7 MB/s eta 0:00:01
+[K     |███████████▍                    | 522 kB 1.7 MB/s eta 0:00:01
+[K     |███████████▋                    | 532 kB 1.7 MB/s eta 0:00:01
+[K     |███████████▉                    | 542 kB 1.7 MB/s eta 0:00:01
+[K     |████████████                    | 552 kB 1.7 MB/s eta 0:00:01
+[K     |████████████▎                   | 563 kB 1.7 MB/s eta 0:00:01
+[K     |████████████▌                   | 573 kB 1.7 MB/s eta 0:00:01
+[K     |████████████▊                   | 583 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████                   | 593 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████▏                  | 604 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████▍                  | 614 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████▋                  | 624 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████▉                  | 634 kB 1.7 MB/s eta 0:00:01
+[K     |██████████████                  | 645 kB 1.7 MB/s eta 0:00:01
+[K     |██████████████▎                 | 655 kB 1.7 MB/s eta 0:00:01
+[K     |██████████████▌                 | 665 kB 1.7 MB/s eta 0:00:01
+[K     |██████████████▊                 | 675 kB 1.7 MB/s eta 0:00:01
+[K     |███████████████                 | 686 kB 1.7 MB/s eta 0:00:01
+[K     |███████████████▏                | 696 kB 1.7 MB/s eta 0:00:01
+[K     |███████████████▍                | 706 kB 1.7 MB/s eta 0:00:01
+[K     |███████████████▋                | 716 kB 1.7 MB/s eta 0:00:01
+[K     |███████████████▉                | 727 kB 1.7 MB/s eta 0:00:01
+[K     |████████████████                | 737 kB 1.7 MB/s eta 0:00:01
+[K     |████████████████▎               | 747 kB 1.7 MB/s eta 0:00:01
+[K     |████████████████▌               | 757 kB 1.7 MB/s eta 0:00:01
+[K     |████████████████▊               | 768 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████████               | 778 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████████▏              | 788 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████████▍              | 798 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████████▋              | 808 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████████▉              | 819 kB 1.7 MB/s eta 0:00:01
+[K     |██████████████████              | 829 kB 1.7 MB/s eta 0:00:01
+[K     |██████████████████▎             | 839 kB 1.7 MB/s eta 0:00:01
+[K     |██████████████████▌             | 849 kB 1.7 MB/s eta 0:00:01
+[K     |██████████████████▊             | 860 kB 1.7 MB/s eta 0:00:01
+[K     |███████████████████             | 870 kB 1.7 MB/s eta 0:00:01
+[K     |███████████████████▏            | 880 kB 1.7 MB/s eta 0:00:01
+[K     |███████████████████▍            | 890 kB 1.7 MB/s eta 0:00:01
+[K     |███████████████████▋            | 901 kB 1.7 MB/s eta 0:00:01
+[K     |███████████████████▉            | 911 kB 1.7 MB/s eta 0:00:01
+[K     |████████████████████            | 921 kB 1.7 MB/s eta 0:00:01
+[K     |████████████████████▎           | 931 kB 1.7 MB/s eta 0:00:01
+[K     |████████████████████▌           | 942 kB 1.7 MB/s eta 0:00:01
+[K     |████████████████████▊           | 952 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████           | 962 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████▏          | 972 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████▍          | 983 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████▋          | 993 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████▉          | 1.0 MB 1.7 MB/s eta 0:00:01
+[K     |██████████████████████          | 1.0 MB 1.7 MB/s eta 0:00:01
+[K     |██████████████████████▎         | 1.0 MB 1.7 MB/s eta 0:00:01
+[K     |██████████████████████▌         | 1.0 MB 1.7 MB/s eta 0:00:01
+[K     |██████████████████████▊         | 1.0 MB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████         | 1.1 MB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████▏        | 1.1 MB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████▍        | 1.1 MB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████▋        | 1.1 MB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████▉        | 1.1 MB 1.7 MB/s eta 0:00:01
+[K     |████████████████████████        | 1.1 MB 1.7 MB/s eta 0:00:01
+[K     |████████████████████████▎       | 1.1 MB 1.7 MB/s eta 0:00:01
+[K     |████████████████████████▌       | 1.1 MB 1.7 MB/s eta 0:00:01
+[K     |████████████████████████▊       | 1.1 MB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████████       | 1.1 MB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████████▏      | 1.2 MB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████████▍      | 1.2 MB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████████▋      | 1.2 MB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████████▉      | 1.2 MB 1.7 MB/s eta 0:00:01
+[K     |██████████████████████████      | 1.2 MB 1.7 MB/s eta 0:00:01
+[K     |██████████████████████████▎     | 1.2 MB 1.7 MB/s eta 0:00:01
+[K     |██████████████████████████▌     | 1.2 MB 1.7 MB/s eta 0:00:01
+[K     |██████████████████████████▊     | 1.2 MB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████████     | 1.2 MB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████████▏    | 1.2 MB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████████▍    | 1.3 MB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████████▋    | 1.3 MB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████████▉    | 1.3 MB 1.7 MB/s eta 0:00:01
+[K     |████████████████████████████    | 1.3 MB 1.7 MB/s eta 0:00:01
+[K     |████████████████████████████▎   | 1.3 MB 1.7 MB/s eta 0:00:01
+[K     |████████████████████████████▌   | 1.3 MB 1.7 MB/s eta 0:00:01
+[K     |████████████████████████████▊   | 1.3 MB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████████████   | 1.3 MB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████████████▏  | 1.3 MB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████████████▍  | 1.4 MB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████████████▋  | 1.4 MB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████████████▉  | 1.4 MB 1.7 MB/s eta 0:00:01
+[K     |██████████████████████████████  | 1.4 MB 1.7 MB/s eta 0:00:01
+[K     |██████████████████████████████▎ | 1.4 MB 1.7 MB/s eta 0:00:01
+[K     |██████████████████████████████▌ | 1.4 MB 1.7 MB/s eta 0:00:01
+[K     |██████████████████████████████▊ | 1.4 MB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████████████ | 1.4 MB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████████████▏| 1.4 MB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████████████▍| 1.4 MB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████████████▋| 1.5 MB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████████████▉| 1.5 MB 1.7 MB/s eta 0:00:01
+[K     |████████████████████████████████| 1.5 MB 1.7 MB/s 
+[?25hCollecting tomli>=1.1.0
+  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+Collecting pathspec>=0.9.0
+  Downloading pathspec-0.9.0-py2.py3-none-any.whl (31 kB)
+Collecting click>=8.0.0
+  Downloading click-8.1.3-py3-none-any.whl (96 kB)
+[?25l
+[K     |███▍                            | 10 kB 4.9 MB/s eta 0:00:01
+[K     |██████▉                         | 20 kB 2.9 MB/s eta 0:00:01
+[K     |██████████▏                     | 30 kB 4.1 MB/s eta 0:00:01
+[K     |█████████████▋                  | 40 kB 4.1 MB/s eta 0:00:01
+[K     |█████████████████               | 51 kB 4.1 MB/s eta 0:00:01
+[K     |████████████████████▍           | 61 kB 4.9 MB/s eta 0:00:01
+[K     |███████████████████████▊        | 71 kB 4.1 MB/s eta 0:00:01
+[K     |███████████████████████████▏    | 81 kB 4.1 MB/s eta 0:00:01
+[K     |██████████████████████████████▌ | 92 kB 4.5 MB/s eta 0:00:01
+[K     |████████████████████████████████| 96 kB 2.1 MB/s 
+[?25hCollecting typing-extensions>=3.10.0.0
+  Downloading typing_extensions-4.2.0-py3-none-any.whl (24 kB)
+Collecting platformdirs>=2
+  Downloading platformdirs-2.5.2-py3-none-any.whl (14 kB)
+Collecting mypy-extensions>=0.4.3
+  Downloading mypy_extensions-0.4.3-py2.py3-none-any.whl (4.5 kB)
+Installing collected packages: typing-extensions, tomli, platformdirs, pathspec, mypy-extensions, click, black
+Successfully installed black-22.3.0 click-8.1.3 mypy-extensions-0.4.3 pathspec-0.9.0 platformdirs-2.5.2 tomli-2.0.1 typing-extensions-4.2.0
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ 
+[K(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ pip install isort
+Collecting isort
+  Downloading isort-5.10.1-py3-none-any.whl (103 kB)
+[?25l
+[K     |███▏                            | 10 kB 595 kB/s eta 0:00:01
+[K     |██████▍                         | 20 kB 1.2 MB/s eta 0:00:01
+[K     |█████████▌                      | 30 kB 1.7 MB/s eta 0:00:01
+[K     |████████████▊                   | 40 kB 2.3 MB/s eta 0:00:01
+[K     |███████████████▉                | 51 kB 1.1 MB/s eta 0:00:01
+[K     |███████████████████             | 61 kB 1.3 MB/s eta 0:00:01
+[K     |██████████████████████▏         | 71 kB 1.5 MB/s eta 0:00:01
+[K     |█████████████████████████▍      | 81 kB 1.6 MB/s eta 0:00:01
+[K     |████████████████████████████▌   | 92 kB 1.7 MB/s eta 0:00:01
+[K     |███████████████████████████████▊| 102 kB 1.9 MB/s eta 0:00:01
+[K     |████████████████████████████████| 103 kB 1.9 MB/s 
+[?25hInstalling collected packages: isort
+Successfully installed isort-5.10.1
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ black [K[K[K[K[K[Kls
+README.md  README.md:Zone.Identifier  environment.yml  nonstandardcode.py  nonstandardcode.py:Zone.Identifier
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ black nonstandardcode.py
+[1mreformatted nonstandardcode.py[0m
+
+[1mAll done! ✨ 🍰 ✨[0m
+[34m[1m1 file [0m[1mreformatted[0m.
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ isort nonstandardcode.py
+Fixing /home/vparul/mle-training/nonstandardcode.py
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ pip install flake8
+Collecting flake8
+  Downloading flake8-4.0.1-py2.py3-none-any.whl (64 kB)
+[?25l
+[K     |█████▏                          | 10 kB 466 kB/s eta 0:00:01
+[K     |██████████▎                     | 20 kB 882 kB/s eta 0:00:01
+[K     |███████████████▍                | 30 kB 1.3 MB/s eta 0:00:01
+[K     |████████████████████▌           | 40 kB 1.7 MB/s eta 0:00:01
+[K     |█████████████████████████▋      | 51 kB 1.8 MB/s eta 0:00:01
+[K     |██████████████████████████████▊ | 61 kB 1.1 MB/s eta 0:00:01
+[K     |████████████████████████████████| 64 kB 773 kB/s 
+[?25hCollecting mccabe<0.7.0,>=0.6.0
+  Downloading mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Collecting pyflakes<2.5.0,>=2.4.0
+  Downloading pyflakes-2.4.0-py2.py3-none-any.whl (69 kB)
+[?25l
+[K     |████▊                           | 10 kB 5.1 MB/s eta 0:00:01
+[K     |█████████▍                      | 20 kB 7.8 MB/s eta 0:00:01
+[K     |██████████████                  | 30 kB 10.2 MB/s eta 0:00:01
+[K     |██████████████████▉             | 40 kB 12.5 MB/s eta 0:00:01
+[K     |███████████████████████▌        | 51 kB 8.9 MB/s eta 0:00:01
+[K     |████████████████████████████▏   | 61 kB 10.2 MB/s eta 0:00:01
+[K     |████████████████████████████████| 69 kB 3.5 MB/s 
+[?25hCollecting pycodestyle<2.9.0,>=2.8.0
+  Downloading pycodestyle-2.8.0-py2.py3-none-any.whl (42 kB)
+[?25l
+[K     |███████▉                        | 10 kB 4.8 MB/s eta 0:00:01
+[K     |███████████████▋                | 20 kB 1.4 MB/s eta 0:00:01
+[K     |███████████████████████▍        | 30 kB 2.1 MB/s eta 0:00:01
+[K     |███████████████████████████████▏| 40 kB 2.7 MB/s eta 0:00:01
+[K     |████████████████████████████████| 42 kB 360 kB/s 
+[?25hInstalling collected packages: pyflakes, pycodestyle, mccabe, flake8
+Successfully installed flake8-4.0.1 mccabe-0.6.1 pycodestyle-2.8.0 pyflakes-2.4.0
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:4:1: F401 'matplotlib as mpl' imported but unused
+nonstandardcode.py:5:1: F401 'matplotlib.pyplot as plt' imported but unused
+nonstandardcode.py:24:1: F811 redefinition of unused 'pd' from line 7
+nonstandardcode.py:24:1: E402 module level import not at top of file
+nonstandardcode.py:34:1: E402 module level import not at top of file
+nonstandardcode.py:44:1: E402 module level import not at top of file
+nonstandardcode.py:82:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:83:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:90:1: E402 module level import not at top of file
+nonstandardcode.py:100:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:109:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:111:1: E402 module level import not at top of file
+nonstandardcode.py:116:1: E402 module level import not at top of file
+nonstandardcode.py:124:1: E402 module level import not at top of file
+nonstandardcode.py:130:1: E402 module level import not at top of file
+nonstandardcode.py:141:1: E402 module level import not at top of file
+nonstandardcode.py:142:1: E402 module level import not at top of file
+nonstandardcode.py:143:1: E402 module level import not at top of file
+nonstandardcode.py:165:1: E402 module level import not at top of file
+nonstandardcode.py:215:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:4:1: E265 block comment should start with '# '
+nonstandardcode.py:5:1: E265 block comment should start with '# '
+nonstandardcode.py:7:1: E265 block comment should start with '# '
+nonstandardcode.py:24:1: E402 module level import not at top of file
+nonstandardcode.py:34:1: E402 module level import not at top of file
+nonstandardcode.py:44:1: E402 module level import not at top of file
+nonstandardcode.py:82:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:83:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:90:1: E402 module level import not at top of file
+nonstandardcode.py:100:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:109:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:111:1: E402 module level import not at top of file
+nonstandardcode.py:116:1: E402 module level import not at top of file
+nonstandardcode.py:124:1: E402 module level import not at top of file
+nonstandardcode.py:130:1: E402 module level import not at top of file
+nonstandardcode.py:141:1: E402 module level import not at top of file
+nonstandardcode.py:142:1: E402 module level import not at top of file
+nonstandardcode.py:143:1: E402 module level import not at top of file
+nonstandardcode.py:165:1: E402 module level import not at top of file
+nonstandardcode.py:215:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:5:1: E265 block comment should start with '# '
+nonstandardcode.py:6:1: E265 block comment should start with '# '
+nonstandardcode.py:7:1: E265 block comment should start with '# '
+nonstandardcode.py:24:1: E402 module level import not at top of file
+nonstandardcode.py:34:1: E402 module level import not at top of file
+nonstandardcode.py:44:1: E402 module level import not at top of file
+nonstandardcode.py:82:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:83:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:90:1: E402 module level import not at top of file
+nonstandardcode.py:100:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:109:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:111:1: E402 module level import not at top of file
+nonstandardcode.py:116:1: E402 module level import not at top of file
+nonstandardcode.py:124:1: E402 module level import not at top of file
+nonstandardcode.py:130:1: E402 module level import not at top of file
+nonstandardcode.py:141:1: E402 module level import not at top of file
+nonstandardcode.py:142:1: E402 module level import not at top of file
+nonstandardcode.py:143:1: E402 module level import not at top of file
+nonstandardcode.py:165:1: E402 module level import not at top of file
+nonstandardcode.py:215:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:1:1: E265 block comment should start with '# '
+nonstandardcode.py:2:1: E265 block comment should start with '# '
+nonstandardcode.py:4:1: E265 block comment should start with '# '
+nonstandardcode.py:13:1: E303 too many blank lines (4)
+nonstandardcode.py:27:1: E402 module level import not at top of file
+nonstandardcode.py:37:1: E402 module level import not at top of file
+nonstandardcode.py:43:36: F821 undefined name 'np'
+nonstandardcode.py:47:1: E402 module level import not at top of file
+nonstandardcode.py:85:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:86:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:93:1: E402 module level import not at top of file
+nonstandardcode.py:103:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:112:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:114:1: E402 module level import not at top of file
+nonstandardcode.py:119:1: E402 module level import not at top of file
+nonstandardcode.py:123:12: F821 undefined name 'np'
+nonstandardcode.py:127:1: E402 module level import not at top of file
+nonstandardcode.py:133:1: E402 module level import not at top of file
+nonstandardcode.py:140:13: F821 undefined name 'np'
+nonstandardcode.py:144:1: E402 module level import not at top of file
+nonstandardcode.py:145:1: E402 module level import not at top of file
+nonstandardcode.py:146:1: E402 module level import not at top of file
+nonstandardcode.py:165:11: F821 undefined name 'np'
+nonstandardcode.py:168:1: E402 module level import not at top of file
+nonstandardcode.py:191:11: F821 undefined name 'np'
+nonstandardcode.py:218:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:223:14: F821 undefined name 'np'
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:1:1: E265 block comment should start with '# '
+nonstandardcode.py:2:1: E265 block comment should start with '# '
+nonstandardcode.py:3:1: E265 block comment should start with '# '
+nonstandardcode.py:12:1: E303 too many blank lines (4)
+nonstandardcode.py:26:1: E402 module level import not at top of file
+nonstandardcode.py:36:1: E402 module level import not at top of file
+nonstandardcode.py:42:36: F821 undefined name 'np'
+nonstandardcode.py:46:1: E402 module level import not at top of file
+nonstandardcode.py:84:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:85:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:92:1: E402 module level import not at top of file
+nonstandardcode.py:102:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:111:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:113:1: E402 module level import not at top of file
+nonstandardcode.py:118:1: E402 module level import not at top of file
+nonstandardcode.py:122:12: F821 undefined name 'np'
+nonstandardcode.py:126:1: E402 module level import not at top of file
+nonstandardcode.py:132:1: E402 module level import not at top of file
+nonstandardcode.py:139:13: F821 undefined name 'np'
+nonstandardcode.py:143:1: E402 module level import not at top of file
+nonstandardcode.py:144:1: E402 module level import not at top of file
+nonstandardcode.py:145:1: E402 module level import not at top of file
+nonstandardcode.py:164:11: F821 undefined name 'np'
+nonstandardcode.py:167:1: E402 module level import not at top of file
+nonstandardcode.py:190:11: F821 undefined name 'np'
+nonstandardcode.py:217:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:222:14: F821 undefined name 'np'
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ black flake8 nonstandardcode.py[7Ppip install flake8isort nonstandardcode.pyblack[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[1mreformatted nonstandardcode.py[0m
+
+[1mAll done! ✨ 🍰 ✨[0m
+[34m[1m1 file [0m[1mreformatted[0m.
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ black nonstandardcode.py[1@flake8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+nonstandardcode.py:24:1: E402 module level import not at top of file
+nonstandardcode.py:34:1: E402 module level import not at top of file
+nonstandardcode.py:40:36: F821 undefined name 'np'
+nonstandardcode.py:44:1: E402 module level import not at top of file
+nonstandardcode.py:82:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:83:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:90:1: E402 module level import not at top of file
+nonstandardcode.py:100:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:109:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:111:1: E402 module level import not at top of file
+nonstandardcode.py:116:1: E402 module level import not at top of file
+nonstandardcode.py:120:12: F821 undefined name 'np'
+nonstandardcode.py:124:1: E402 module level import not at top of file
+nonstandardcode.py:130:1: E402 module level import not at top of file
+nonstandardcode.py:137:13: F821 undefined name 'np'
+nonstandardcode.py:141:1: E402 module level import not at top of file
+nonstandardcode.py:142:1: E402 module level import not at top of file
+nonstandardcode.py:143:1: E402 module level import not at top of file
+nonstandardcode.py:162:11: F821 undefined name 'np'
+nonstandardcode.py:165:1: E402 module level import not at top of file
+nonstandardcode.py:188:11: F821 undefined name 'np'
+nonstandardcode.py:215:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:220:14: F821 undefined name 'np'
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:25:1: E402 module level import not at top of file
+nonstandardcode.py:35:1: E402 module level import not at top of file
+nonstandardcode.py:45:1: E402 module level import not at top of file
+nonstandardcode.py:83:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:84:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:91:1: E402 module level import not at top of file
+nonstandardcode.py:101:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:110:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:112:1: E402 module level import not at top of file
+nonstandardcode.py:117:1: E402 module level import not at top of file
+nonstandardcode.py:125:1: E402 module level import not at top of file
+nonstandardcode.py:131:1: E402 module level import not at top of file
+nonstandardcode.py:142:1: E402 module level import not at top of file
+nonstandardcode.py:143:1: E402 module level import not at top of file
+nonstandardcode.py:144:1: E402 module level import not at top of file
+nonstandardcode.py:166:1: E402 module level import not at top of file
+nonstandardcode.py:216:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:40:1: E303 too many blank lines (5)
+nonstandardcode.py:49:1: E303 too many blank lines (3)
+nonstandardcode.py:59:1: E303 too many blank lines (3)
+nonstandardcode.py:95:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:96:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:105:1: E303 too many blank lines (3)
+nonstandardcode.py:113:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:122:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:126:1: E303 too many blank lines (3)
+nonstandardcode.py:131:1: E303 too many blank lines (3)
+nonstandardcode.py:139:1: E303 too many blank lines (4)
+nonstandardcode.py:145:1: E303 too many blank lines (4)
+nonstandardcode.py:156:1: E303 too many blank lines (4)
+nonstandardcode.py:178:1: E303 too many blank lines (4)
+nonstandardcode.py:226:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ blacflake8 nonstandardcode.py[1Pblack[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[1mreformatted nonstandardcode.py[0m
+
+[1mAll done! ✨ 🍰 ✨[0m
+[34m[1m1 file [0m[1mreformatted[0m.
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ black nonstandardcode.py[1@flake8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+nonstandardcode.py:90:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:91:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:107:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:116:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:210:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py[1Pblack[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[1mAll done! ✨ 🍰 ✨[0m
+[34m1 file [0mleft unchanged.
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ black nonstandardcode.py[1@flake8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+nonstandardcode.py:90:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:91:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:107:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:116:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:210:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:90:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:91:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:107:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:116:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:211:2: E128 continuation line under-indented for visual indent
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:90:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:91:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:107:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:116:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:210:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py[1Pblack[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@flake8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pblack[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@flake8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pblack[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@flake8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pblack[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P nonstandardcode.py[1P nonstandardcode.py[1P nonstandardcode.py[1P nonstandardcode.py[1P nonstandardcode.pyi nonstandardcode.pys nonstandardcode.pyo nonstandardcode.pyr nonstandardcode.pyt nonstandardcode.py
+Fixing /home/vparul/mle-training/nonstandardcode.py
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ isort nonstandardcode.py[1@flake8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+nonstandardcode.py:87:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:88:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:104:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:113:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:207:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:87:29: E225 missing whitespace around operator
+nonstandardcode.py:88:80: E501 line too long (83 > 79 characters)
+nonstandardcode.py:104:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:113:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:207:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:87:29: E225 missing whitespace around operator
+nonstandardcode.py:88:36: E225 missing whitespace around operator
+nonstandardcode.py:104:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:113:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:207:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:88:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:104:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:113:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:207:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:87:31: E225 missing whitespace around operator
+nonstandardcode.py:88:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:104:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:113:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:207:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:87:31: E225 missing whitespace around operator
+nonstandardcode.py:88:38: E225 missing whitespace around operator
+nonstandardcode.py:88:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:104:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:113:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:207:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:87:31: E225 missing whitespace around operator
+nonstandardcode.py:88:38: E225 missing whitespace around operator
+nonstandardcode.py:88:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:104:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:113:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:207:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:88:80: E501 line too long (81 > 79 characters)
+nonstandardcode.py:104:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:113:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:207:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:85:2: E225 missing whitespace around operator
+nonstandardcode.py:105:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:114:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:208:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:105:80: E501 line too long (88 > 79 characters)
+nonstandardcode.py:114:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:208:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:103:5: F821 undefined name 'housing_tr'
+nonstandardcode.py:114:80: E501 line too long (80 > 79 characters)
+nonstandardcode.py:208:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:103:5: F821 undefined name 'housing_tr'
+nonstandardcode.py:114:62: E231 missing whitespace after ','
+nonstandardcode.py:208:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:103:5: F821 undefined name 'housing_tr'
+nonstandardcode.py:114:2: E225 missing whitespace around operator
+nonstandardcode.py:209:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:103:5: F821 undefined name 'housing_tr'
+nonstandardcode.py:209:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:103:5: F821 undefined name 'housing_tr'
+nonstandardcode.py:209:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:103:5: F821 undefined name 'housing_tr'
+nonstandardcode.py:208:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:103:5: F821 undefined name 'housing_tr'
+nonstandardcode.py:208:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:209:80: E501 line too long (83 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:209:80: E501 line too long (80 > 79 characters)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+nonstandardcode.py:209:2: E225 missing whitespace around operator
+nonstandardcode.py:210:55: F821 undefined name 'Xd'
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ flake8 nonstandardcode.py
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git status
+On branch fix/#3/manual-refactor
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mREADME.md:Zone.Identifier[m
+	[31mnonstandardcode.py[m
+	[31mnonstandardcode.py:Zone.Identifier[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git add  nonstandardcode.py[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kit branch -a
+[?1h=
+  enh/#1/branch1[m[m
+* [32mfix/#3/manual-refactor[m[m
+  main[m[m
+  [31mremotes/origin/HEAD[m -> origin/main[m
+  [31mremotes/origin/enh/#1/branch1[m[m
+  [31mremotes/origin/main[m[m
+
+[K[?1l>(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git add nonstandardcode.py
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git commit -m ""A"d"d" "P"y"t"h"o"n" "S"c"r"i"p"t" "|"|" "w"i"t"h"o"u"t" "e"r"r"o"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"e"r"r"o"r" "r"e"s"o"l"v"e"d" "|"|" "b"l"a"c"k","i"s"o"r"t","f"l"a"k"e"8" "|"|" "fix/#3/manual-refactor"
+[fix/#3/manual-refactor d8e32af] Add Python Script || error resolved || black,isort,flake8 || fix/#3/manual-refactor
+ 1 file changed, 215 insertions(+)
+ create mode 100644 nonstandardcode.py
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git push origin fix/#3/manual-refactor
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)
+Counting objects:  50% (2/4)
+Counting objects:  75% (3/4)
+Counting objects: 100% (4/4)
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)
+Compressing objects:  66% (2/3)
+Compressing objects: 100% (3/3)
+Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)
+Writing objects:  66% (2/3)
+Writing objects: 100% (3/3)
+Writing objects: 100% (3/3), 2.40 KiB | 2.40 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'fix/#3/manual-refactor' on GitHub by visiting:[K
+remote:      https://github.com/vparul-v/mle-training/pull/new/fix/%233/manual-refactor[K
+remote: 
+To github.com:vparul-v/mle-training.git
+ * [new branch]      fix/#3/manual-refactor -> fix/#3/manual-refactor
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ git push origin fix/#3/manual-refactorcommit -m "Add Python Script || error resolved || black,isort,flake8 || fix/#3/manual-refactor"
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd nonstandardcode.py[K[13Pbranch -a[3Pstatusflake8 nonstandardcode.py[1Pisort[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@flake8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pblack[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@flake8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pblack[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@flake8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pisort[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@flake8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(base) ]0;vparul@TIGER03118: ~/mle-training[01;32mvparul@TIGER03118[00m:[01;34m~/mle-training[00m$ exit
+exit
+
+Script done on 2023-01-06 14:27:19+05:30 [COMMAND_EXIT_CODE="0"]
