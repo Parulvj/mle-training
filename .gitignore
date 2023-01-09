@@ -1,0 +1,7 @@
+*.pyc
+*.csv
+*.log
+*.tgz
+logging_files/
+build/
+
