@@ -1,7 +1,13 @@
+##to ignore all pyc files
 *.pyc
+#to ignore all csv files
 *.csv
+#to  log to be ignored
 *.log
+#to ignore all tar files
 *.tgz
+#to ignore all logging files
 logging_files/
+#to ignore all conda build files
 build/
 
