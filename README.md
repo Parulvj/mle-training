@@ -1,4 +1,3 @@
-[README.docx](https://github.com/Parulvj/mle-training/files/10375489/README.docx)
 # Median housing value prediction
 
 The housing data can be downloaded from https://raw.githubusercontent.com/ageron/handson-ml/master/. The script has codes to download the data. We have modelled the median house value on given housing data. 
@@ -16,4 +15,4 @@ The following techniques have been used:
  - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
 
 ## To excute the script
-**python < scriptname.py >**
+python < scriptname.py >
