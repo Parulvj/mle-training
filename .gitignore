@@ -1,13 +1,16 @@
-##to ignore all pyc files
-*.pyc
-#to ignore all csv files
+# created by virtualenv automatically
 *.csv
-#to  log to be ignored
-*.log
-#to ignore all tar files
+*.pyc
 *.tgz
-#to ignore all logging files
-logging_files/
-#to ignore all conda build files
-build/
-
+build/**
+*.pkl
+saved_models
+*.egg-info/**
+dist/**
+mlruns/**
+.flake8
+.vscode/**
+*model/
+*.log
+artifacts/{0..9}/**
+docs/build/**
